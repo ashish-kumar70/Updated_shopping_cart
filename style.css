@@ -21,6 +21,10 @@
   h3{
     text-transform: capitalize;
   }
+  hr{
+    color: rgb(208, 207, 207);
+    opacity: 0.6;
+  }
 }
 .left_box .item_info {
 
