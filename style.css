@@ -8,6 +8,7 @@
 }
 
 .top {
+  text-transform: capitalize  ;
   display: flex;
 }
 
@@ -17,8 +18,12 @@
 }
 .left_box{
   margin-right: 3.5em;
+  h3{
+    text-transform: capitalize;
+  }
 }
 .left_box .item_info {
+
   margin-bottom: 2em;
 }
 
@@ -87,7 +92,7 @@
 .right_box {
   padding: 1.1em;
   background-color: #565abb;
-  border: 2px solid navy;
+  border-radius: 1em;
   color: rgb(254, 252, 252);
   .card_details {
     display: flex;
@@ -157,6 +162,7 @@ input::placeholder {
   display: flex;
   margin-bottom: 0.5em;
   justify-content: space-between;
+  text-transform: capitalize;
 }
 .subtotal {
   margin: 2em 0px 0.4em 0px;
